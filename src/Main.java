@@ -8,24 +8,24 @@ public class Main {
 	
 	static ArrayList<Object> array = new ArrayList<>(0);
 	
-	public static void main(String[] args) {
-		System.out.println("1 for add, 2 for remove, 3 for size");
-		System.out.println("Enter request and value separated with a space:");
-		while(true) {
-			System.out.println("");
-			// create a scanner so we can read the input
-			Scanner scanner = new Scanner(System.in);
-
-			//get request type
-			int commad = scanner.nextInt();
-
-			//get request value
-			Object value = scanner.nextLine();
-
-			//handle request
-			requestHandler(commad, value);
-		}
-	}
+//	public static void main(String[] args) {
+//		System.out.println("1 for add, 2 for remove, 3 for size");
+//		System.out.println("Enter request and value separated with a space:");
+//		while(true) {
+//			System.out.println("");
+//			// create a scanner so we can read the input
+//			Scanner scanner = new Scanner(System.in);
+//
+//			//get request type
+//			int commad = scanner.nextInt();
+//
+//			//get request value
+//			Object value = scanner.nextLine();
+//
+//			//handle request
+//			requestHandler(commad, value);
+//		}
+//	}
 
 	
 private static void requestHandler(int request, Object value) {
