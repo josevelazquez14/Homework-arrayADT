@@ -30,11 +30,11 @@ public class Main {
 	
 private static void requestHandler(int request, Object value) {
 		
-//		if(request == 3) { //prints list size 
-//			int s = array.size();
-//			System.out.print("Size->\""+s+"\"");
-//		}
-//		
+		if(request == 3) { //prints list size 
+			int s = array.size();
+			System.out.print("Size->\""+s+"\"");
+		}
+	
 		//will accept entries into arrayList as long as they are not null values
 		if(!value.equals("") && value != null) {
 			if(request == 1) {
